@@ -6,7 +6,7 @@ import About from './About'
 
 export const Home = () => {
   return (
-	<header className='grid grid-cols-5 h-screen w-screen max-md:flex max-md:flex-col max-md:gap-8'>
+	<header className='box-border grid grid-cols-5 h-screen w-screen max-md:flex max-md:flex-col max-md:gap-8 dark:bg-gray-900 font-family-sans'>
 
 {/* dark:text-white dark:bg-gray-800 */}
 		<Nav/>
