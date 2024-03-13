@@ -5,7 +5,7 @@ const Body = () => {
   return (
 
 	// <section className='flex flex-row justify-center place-items-center'>
-	<section className=' w-max-full  col-span-4 flex flex-row justify-around items-center gap-7 px-4 max-md:flex-col max-md:items-start max-md:gap-4 max-md:px-2'>
+	< section className=' w-max-full  col-span-4 flex flex-row justify-around items-center gap-7 px-4 max-md:flex-col max-md:items-start max-md:gap-4 max-md:px-2 dark:text-white'>
 		<div className='flex flex-col gap-4  max-md:order-last'>
 
 			
