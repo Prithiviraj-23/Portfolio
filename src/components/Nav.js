@@ -39,18 +39,7 @@ const Nav = () => {
 					
 				</button>
 				</Link>
-				<Link to='.service'>
-				<button className='flex flex-row justify-center items-center  md:shadow-lg gap-4 p-2 max-w-28 border-black md:border-b-2 hover:transform -hover:translate-x-1 -hover:translate-y-1 hover:scale-105 hover:text-red-500 '>
-
-
-					
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-list-tree"><path d="M21 12h-8" /><path d="M21 6H8" /><path d="M21 18h-8" /><path d="M3 6v4c0 1.1.9 2 2 2h3" /><path d="M3 10v6c0 1.1.9 2 2 2h3" /></svg>		<div>
-							Service
-						</div>
-
-					
-				</button>
-				</Link>
+				
 				<Link to='/tech'>
 				<button className='flex flex-row justify-center items-center  md:shadow-lg gap-4 p-2 max-w-28 border-black md:border-b-2 hover:transform -hover:translate-x-1 -hover:translate-y-1 hover:scale-105 hover:text-red-500 '>
 					
@@ -90,10 +79,7 @@ const Nav = () => {
 
 
 							</Link>
-							<Link to='/service'>
-								<span className="flex flex-row items-center p-2 gap-3 w-full justify-between hover:text-red-500  hover:transform -hover:translate-x-1 -hover:translate-y-1 hover:scale-105"><ListTree size={20} strokeWidth={1} colour="white" /> Service</span>
-
-							</Link>
+							
 							<Link to='/tech'>
 								<span className="flex flex-row items-center p-2 gap-3 w-full justify-between hover:text-red-500  hover:transform -hover:translate-x-1 -hover:translate-y-1 hover:scale-105  "><FolderOpenDot size={20} strokeWidth={1} colour="white" />Tech</span>
 							</Link>
